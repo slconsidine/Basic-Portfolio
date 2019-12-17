@@ -28,6 +28,7 @@ header {
     background-color: #ffffff;
     border-color: #cccccc;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -42,22 +43,36 @@ ul {
   
   li {
     float: right;
-    border-right: 1px solid #999;
   }
   
   li a {
     display: block;
-    color: #999;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #fff;
   }
 
   .header {
-    margin: 0 20px;
+    margin: 0 15px;
     float: left;
     background-color: #4aaaa5;
     color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+
+  #nav1 {
+      color: #999;
+      border-left: 1px solid #999;
+  }
+  #nav2 {
+      color: #999;
+      border-left: 1px solid #999;
+  }
+  #nav3 {
+      color: #999;
   }
 
 footer {
@@ -78,6 +93,7 @@ footer p {
     background-color: #ffffff;
     border-color: #dddddd;
     margin: auto;
+    padding-bottom: 20px;
     /* margin: 0px 15% -50px 15%; */
     overflow: auto;
     min-height: 100%;
@@ -119,7 +135,8 @@ img {
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
-    margin: 0px 15% -50px 15%;
+    margin: auto;
+    /* margin: 0px 15% -50px 15%; */
     overflow: auto;
     position: relative;
 }
@@ -146,5 +163,26 @@ textarea {
     font-size: 16px;
 }
 
+/* portfolio.html CSS */
+.images {
+    position: relative;
+    justify-content: space-between;
+}
 
+.image1 {
+    float: left;
+    /* position: relative; */
+}
 
+.image-banners {
+    clear: both;
+    width: 300px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
