@@ -53,6 +53,11 @@ ul {
     color: #fff;
   }
 
+.current {
+      background-color: #4aaaa5;
+      color: #fff;
+  }
+
   .header {
     margin: 0 15px;
     float: left;
