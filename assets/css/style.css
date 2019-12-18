@@ -171,10 +171,11 @@ textarea {
 
 .image1 {
     float: left;
-    /* position: relative; */
+    margin: 10px 0px;
 }
 
 .image-banners {
+    /* position: absolute; */
     clear: both;
     width: 300px;
     padding: 10px 0px;
@@ -182,7 +183,6 @@ textarea {
     background-color: #4aaaa5;
     text-align: center;
     color: #fff;
-    position: relative;
     z-index: 1;
 
 }
