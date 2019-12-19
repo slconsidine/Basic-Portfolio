@@ -1,18 +1,3 @@
-/* 
-
-headings and backgrounds: #4aaaa5
-regular font color: #777777
-main header background color: #ffffff
-main header border color: #cccccc
-footer background color: #666666
-main content background color: #ffffff
-main content border color: #dddddd
-
-heading fonts: font-family: 'Georgia', Times, Times New Roman, serif;
-all other fonts: font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
-*/
-
 body {
     position: absolute;
     background-image: url(../images/spikes/spikes.png);
@@ -99,7 +84,6 @@ footer p {
     border-color: #dddddd;
     margin: auto;
     padding-bottom: 20px;
-    /* margin: 0px 15% -50px 15%; */
     overflow: auto;
     min-height: 100%;
     position: relative;
@@ -127,21 +111,16 @@ hr {
     border: 1px #E6E6E6 solid;
 }
 
-/* index.html CSS */
-
 img {
     float: left;
     padding: 20px 20px 0px 20px;
 }
-
-/* contact.html CSS */
 
 .contact-form {
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
     margin: auto;
-    /* margin: 0px 15% -50px 15%; */
     overflow: auto;
     position: relative;
 }
@@ -168,7 +147,6 @@ textarea {
     font-size: 16px;
 }
 
-/* portfolio.html CSS */
 .images {
     position: relative;
     justify-content: space-between;
@@ -180,7 +158,7 @@ textarea {
 }
 
 .image-banners {
-    /* position: absolute; */
+    position: absolute;
     clear: both;
     width: 300px;
     padding: 10px 0px;
