@@ -96,8 +96,11 @@ img {
 .text {
     padding-top: 10px;
 }
+
 p {
     padding: 0px 20px;
+    line-height: 1.5;
+
 }
 
 footer {
